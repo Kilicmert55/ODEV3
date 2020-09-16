@@ -1,4 +1,4 @@
-﻿/* Christa Phelps
+﻿/* 
  * CSC 253 090
  * Final Project
  */
@@ -102,9 +102,6 @@ namespace FinalProject
             Console.WriteLine("Inner Join");
             innerGroups.ToList().ForEach(Book => Console.WriteLine("Title: {0}, Category: {1}", Book.Title, Book.CategoryName));
 
-            // A final note from a student who is very thankful
-            Console.WriteLine("------------------------------------------------------------------");
-            Console.WriteLine("Don, thank you for everything over the past two years. You have taught me so much and have been nothing but helpful in my journey to begin a new career as a Software Developer. Thank you for all you do for us! -Jade");
             Console.ReadLine();
         } // end main
     } // end class
