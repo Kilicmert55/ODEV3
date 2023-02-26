@@ -1,20 +1,19 @@
-﻿/* 
- * CSC 253 090
- * Final Project
- */
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject
+namespace Odev3_GithubRepoClone_23_02_2023
 {
     class Program
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine( );
+            Console.WriteLine( );
+            Console.WriteLine( );
             List<Book> bookList = new List<Book>() {
             new Book() { ISBN = "90202101", Title = "Chamber of Secrets", Author = "Rowling", Pages = 328, CategoryID = 1 } ,
             new Book() { ISBN = "34812346", Title = "A Brief History of Time", Author = "Hawking", Pages = 310, CategoryID = 3 } ,
@@ -25,7 +24,7 @@ namespace FinalProject
             new Book() { ISBN = "87240402", Title = "Dracula", Author = "Stoker", Pages = 287, CategoryID = 2 } ,
             new Book() { ISBN = "58019199", Title = "The Four Agreements", Author = "Ruiz", Pages = 410, CategoryID = 4 }
             };
-
+            Console.WriteLine( );
             List<Category> categoryList = new List<Category>() {
             new Category(){ CategoryID = 1, CategoryName="Children"},
             new Category(){ CategoryID = 2, CategoryName="Horror"},
