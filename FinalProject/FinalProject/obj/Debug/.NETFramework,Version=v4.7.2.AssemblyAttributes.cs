@@ -1,20 +1,18 @@
-/* 
- * CSC 253 090
- * Final Project
- */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject
+namespace Odev3_Github_Repo_Clone_23_02_2023
 {
     class Program
     {
+        #region Github Repo Clone
         static void Main(string[] args)
         {
-            
+            Console.WriteLine(  );
             List<Book> bookList = new List<Book>() {
             new Book() { ISBN = "90202101", Title = "Chamber of Secrets", Author = "Rowling", Pages = 328, CategoryID = 1 } ,
             new Book() { ISBN = "34812346", Title = "A Brief History of Time", Author = "Hawking", Pages = 310, CategoryID = 3 } ,
@@ -121,3 +119,4 @@ namespace FinalProject
         public string CategoryName { get; set; }
     } // end class
 }//end namespace
+#endregion
